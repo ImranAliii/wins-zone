@@ -1,0 +1,116 @@
+.SubscribeSection {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #F8FAFC;
+    padding: 100px;
+}
+
+
+/* Subscribe Box Styling */
+
+.subscribe-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 20px;
+    overflow: hidden;
+}
+
+
+/* Image Section */
+
+.subscribe-img {
+    flex: 0 0 25%;
+}
+
+.subscribe-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/* Content Section */
+
+.subscribe-content {
+    flex: 0 0 60%;
+    color: #fff;
+    padding: 10px;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.ls-5 {
+    letter-spacing: 0.5px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.xmb-5 {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+
+/* Form Styling */
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.subscribe-input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.subscribe-button {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s !important;
+    white-space: nowrap;
+}
+
+.subscribe-button img {
+    width: 20px;
+}
+
+.subscribe-button:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}

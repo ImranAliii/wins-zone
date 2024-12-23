@@ -1,0 +1,29 @@
+/* .hover-underline {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.hover-underline:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.featured-container {
+    background: #EBEAFF;
+    padding-top: 5%;
+}
+
+.trending-link {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+.trending-link:hover {
+    text-decoration: underline;
+    color: darkblue;
+} */
